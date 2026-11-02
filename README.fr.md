@@ -72,6 +72,7 @@ digraph map {
 | [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | si le topic récursif encode tout problème à un coût cognitif supportable, et à quelle vitesse un projet converge, vers quoi | périmètre seul |
 | [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | ce que chaque projet réel mené avec la méthode a coûté et produit | périmètre seul |
 
+Le pendant du projet dans la première famille est [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
 Le pont est partagé avec la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/extending.md) : le blueprint y reste membre, et
 chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md) (v1.19.2) et exécute ses vérifications en CI.
 
