@@ -10,8 +10,8 @@ member owns.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-02):** set up; the members hold their scope and nothing more. The first job is a literature
-> review of what the field calls this family, not started; the prefix is provisional until then. It is not an
+> **Status (2026-11-02):** set up; the members hold their scope and nothing more. A first pass of the
+> literature review is written and names its baseline; the prefix is kept. It is not an
 > official standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
@@ -81,11 +81,11 @@ every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergon
 
 - **One repository per problem.** A member answers one question; a second question is a second repository.
 - **No overlap.** A fact lives in one member; the others link it. Two members that claim the same thing in their
-  scope tables are a finding, and the first job below makes a program find it.
+  scope tables are a finding, and a program warns on it.
 - **Dependencies point down.** A member uses what sits below it and nothing above; this page links every member and
   nothing links this page.
-- **Names are provisional until the frame step.** Each review's first step finds what the field calls the thing;
-  the repository is renamed then, and GitHub redirects the old address.
+- **Names follow the frame step.** Each review's first step finds what the field calls the thing; this one found it
+  and keeps the prefix.
 - **A model decides nothing.** Its output is checked by a program or read by the person; the blueprint's position
   holds for the whole family.
 
@@ -101,20 +101,27 @@ every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergon
 | **brief** | what one agent hands another: the task, what is decided, what is to be found |
 | **baseline** | the existing result a new one is compared against; a review ends when it can name one |
 
-## The first job: a literature review
+## What the review found
 
-Not started. It is finished when it can name the baseline.
+A first pass of 23 sources, in [evidence](evidence/family-name/README.md).
 
-1. **Frame:** what the field calls a person, a model and a machine working one project. Leads to verify, not names
-   to assert: intelligence augmentation, hybrid intelligence, human-AI teaming, human-in-the-loop. The prefix of the
-   family follows.
-2. **Review:** surveys first, then the seminal works, then who cites them.
-3. **State of the art, and the case against.**
-4. **Position:** which of these fields this family belongs to, and what it adds.
-5. **Baseline:** the vocabulary and the map an existing field already gives, against the ones above.
+1. **The field's names are intelligence augmentation and hybrid intelligence.** Engelbart 1962 and Licklider 1960 are the roots; Akata 2020 is the living community.
+2. **Teaming fits only in part.** In teaming the model is a teammate; here the model decides nothing. The prefix "AI-augmented" matches the field and is kept, not renamed.
+3. **A combination is not always better.** Across 106 experiments, people with a model did worse than the best of either alone, g of -0.23 (secondary), on decisions, and better on content creation (Vaccaro 2024). Each case must compare human alone, model alone and both.
+4. **The checking machine is not a third role in the literature read.** The sources have a person and an AI; the family adds the program that checks, with an exact verdict.
 
-Beside it, the family's own check: a program that reads every member's scope table and fails when two members claim
-the same "in". Whether a scope table can be read reliably enough for an exact check is the question it must answer.
+## The baseline
+
+**H1:** the vocabulary and map of Akata 2020's hybrid intelligence, with Parasuraman 2000's functions and levels for who does what, and Vaccaro 2024's design for measuring.
+Agent files and agent patterns are the practice to compare with, as examples only.
+
+## The first job: done as a first pass
+
+The review is written in five steps and names its baseline. A full pass, with forward citations and a grey search, is not done.
+
+Beside it, the family's own check, [scope_overlap.py](checks/local/scope_overlap.py): a program that reads every member's scope table
+and warns when two members share a phrase of three words in their "in" rows. It warns and never fails, and its tests
+say what it cannot decide. On the six members today it finds no shared phrase, which shows that the tables can be read, not that they do not overlap in meaning.
 
 ## Check it
 
@@ -132,6 +139,7 @@ also renders the site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai-a
 
 | Part | Summary |
 |---|---|
+| [evidence](evidence/) | the review behind this page, and its bibliography |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 
 ## Licence

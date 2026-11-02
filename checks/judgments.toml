@@ -13,15 +13,64 @@ file = ""
 answer = "It stays: `decisions` is the folder the decision-record shape names for its records; it holds the README and record 0001 today, and grows one file per choice."
 
 [[answer]]
-check = "document-mode"
-path = "README.fr.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "362aaf499d97"
-answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`, puis `Le premier travail`. Sa seule tâche, `Vérifier`, tient en deux commandes pour qui veut lancer les vérifications."
-
-[[answer]]
 check = "tree-shape"
 path = "checks/local"
 question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `checks/local` is the folder the extension contract names for an extension's own checks, and the standard's runner loads every module it finds there."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "442cab6c72c2"
+answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/frame.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "0425d241d255"
+answer = "Reference: `Names` is a lookup table of the field's terms, read to find a name; the sub-questions are only its frame."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/review.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "bedaf2e7b500"
+answer = "Reference: `What the strands say` maps each question to an answer, and the sections above it are looked up by strand."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/against.md"
+question = "the name 'against' and the opening are far apart in meaning (0.14): does the name predict the content?"
+file = "666f6f2d63ba"
+answer = "Yes: `Against` is the folder-level name for the evidence against, and the opening says it is where the combination fails."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.17): does the name predict the content?"
+file = "0425d241d255"
+answer = "Yes: `Frame` is step 1 of the review's method, and the file states the problem and the field's names."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.19): does the name predict the content?"
+file = "afd65a5c3fa7"
+answer = "Yes: `Position` is step 4 of the method, and the file says which field the family stands in."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
+file = "bedaf2e7b500"
+answer = "Yes: `Review` is step 2 of the method, and the file reads surveys, seminal works and practice."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (0.00): does the name predict the content?"
+file = "7df40981066c"
+answer = "Yes: `State of the art` is step 3 of the method, and the file holds the best evidence and the practice most adopted."

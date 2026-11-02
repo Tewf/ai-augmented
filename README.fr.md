@@ -10,9 +10,8 @@ recouvrement entre deux, et rien qu'un membre possède.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-02) :** mis en place ; les membres tiennent leur périmètre et rien de plus. Le premier travail est une
-> revue de littérature sur le nom que le domaine donne à cette famille, non commencée ; le préfixe est provisoire
-> jusque-là. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
+> **État (2026-11-02) :** mis en place ; les membres tiennent leur périmètre et rien de plus. Une première passe de la
+> revue de littérature est écrite et nomme sa référence ; le préfixe est conservé. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
@@ -84,10 +83,8 @@ chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-e
   dans leur table de périmètre sont un constat, et le premier travail ci-dessous le fait trouver par un programme.
 - **Les dépendances pointent vers le bas.** Un membre utilise ce qui est sous lui et rien au-dessus ; cette page lie
   chaque membre et rien ne lie cette page.
-- **Les noms sont provisoires jusqu'au cadrage.** La première étape de chaque revue trouve comment le domaine nomme la
-  chose ; le dépôt est renommé alors, et GitHub redirige l'ancienne adresse.
-- **Un modèle ne décide rien.** Sa sortie est vérifiée par un programme ou lue par la personne ; la position du
-  blueprint vaut pour toute la famille.
+- **Les noms suivent le cadrage.** La première étape de chaque revue trouve comment le domaine nomme la chose ; celle-ci l'a
+  trouvé et garde le préfixe.
 
 ## Les mots
 
@@ -101,21 +98,30 @@ chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-e
 | **brief** | ce qu'un agent remet à un autre : la tâche, ce qui est décidé, ce qui est à trouver |
 | **référence** | le résultat existant auquel un nouveau est comparé ; une revue finit quand elle peut en nommer un |
 
-## Le premier travail : une revue de littérature
+## Ce que la revue a trouvé
 
-Non commencée. Elle est finie quand elle peut nommer la référence.
+Une première passe de 23 sources, dans [evidence](evidence/family-name/README.md).
 
-1. **Cadrer :** comment le domaine nomme une personne, un modèle et une machine qui mènent un projet. Pistes à vérifier,
-   non des noms à affirmer : intelligence augmentation, hybrid intelligence, human-AI teaming, human-in-the-loop. Le
-   préfixe de la famille en découle.
-2. **Revue :** les synthèses d'abord, puis les travaux fondateurs, puis qui les cite.
-3. **État de l'art, et le dossier contre.**
-4. **Positionnement :** à quel domaine cette famille appartient, et ce qu'elle ajoute.
-5. **Référence :** le vocabulaire et la carte qu'un domaine existant donne déjà, contre ceux ci-dessus.
+1. **Le domaine dit intelligence augmentation et hybrid intelligence.** Engelbart 1962 et Licklider 1960 en sont les racines ; Akata 2020 est la communauté actuelle.
+2. **L'équipe humain-IA ne convient qu'en partie.** Dans une équipe, le modèle est un coéquipier ; ici il ne décide rien. Le préfixe « AI-augmented » suit le domaine et est conservé, non renommé.
+3. **Une combinaison n'est pas toujours meilleure.** Sur 106 expériences, les personnes avec un modèle ont fait moins bien que le meilleur des deux seul, g de -0,23 (secondaire), sur les décisions. Elles ont fait mieux sur la création de contenu (Vaccaro 2024). Chaque cas doit comparer l'humain seul, le modèle seul et les deux.
+4. **La machine qui vérifie n'est pas un troisième rôle dans la littérature lue.** Les sources ont une personne et une IA ; la famille ajoute le programme qui vérifie, avec un verdict exact.
 
-À côté, la vérification propre à la famille : un programme qui lit la table de périmètre de chaque membre et échoue
-quand deux membres revendiquent le même « dedans ». Savoir si une table de périmètre se lit assez sûrement pour une
-vérification exacte est la question qu'il doit trancher.
+## La référence
+
+**H1 :** le vocabulaire et la carte de la hybrid intelligence d'Akata 2020, avec les fonctions et niveaux de Parasuraman 2000 pour savoir qui fait quoi, et le plan de mesure de Vaccaro 2024.
+Les fichiers d'agents et les motifs d'agents sont la pratique à comparer, comme exemples seulement.
+
+## Le premier travail : fait en première passe
+
+La revue est écrite en cinq étapes et nomme sa référence. Une passe complète, avec citations en aval et recherche de littérature grise, n'est pas faite.
+
+À côté, la vérification propre à la famille, [scope_overlap.py](checks/local/scope_overlap.py) :
+
+- elle lit la table de périmètre de chaque membre ;
+- elle avertit quand deux membres partagent une expression de trois mots dans leurs lignes « dedans » ;
+- elle n'échoue jamais, et ses tests disent ce qu'elle ne peut pas trancher ;
+- sur les six membres d'aujourd'hui elle ne trouve aucune expression commune : les tables se lisent, mais le sens peut se recouvrir.
 
 ## Vérifier
 
@@ -133,6 +139,7 @@ construit aussi le site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai
 
 | Partie | Résumé |
 |---|---|
+| [evidence](evidence/) | la revue derrière cette page, et sa bibliographie |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |
 
 ## Licence
