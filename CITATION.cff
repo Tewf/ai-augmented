@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "ai-augmented (work in progress)"
+abstract: >-
+  The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap. Scope only.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/ai-augmented"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - AI-augmented work
+  - intelligence augmentation
+  - human-AI teaming
+  - documentation
+  - literature review
