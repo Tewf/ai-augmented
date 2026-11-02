@@ -46,6 +46,7 @@ python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag
 - Fix every error. Read every warning.
 - Answer the questions in `checks/out/needs-judgment.md` in `checks/judgments.toml`, each answer quoting in backticks
   a word or heading of its own file.
+- Test the scope-overlap check (it needs no clones): `READER_ERGONOMICS_CHECKS=checks/out/standard/checks python3 -m unittest discover -s checks`.
 - Keep [llms.txt](llms.txt), [README.md](README.md) and [README.fr.md](README.fr.md) in step.
 - A pin raise goes in [CHANGELOG.md](CHANGELOG.md), not in decisions/.
 

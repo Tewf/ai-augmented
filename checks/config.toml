@@ -27,3 +27,9 @@ family = ["reader-ergonomics",
           "reader-ergonomics-topic",
           "reader-ergonomics-blueprint"]
 shared_links = []
+
+# The scope-overlap check (checks/local/scope_overlap.py): the members are the repositories linked in the front page's
+# member table, read from checkouts beside this repository. A warning, never an error, until the family has judged it.
+[scope_overlap]
+front_page = "README.md"
+min_words = 3   # PROVISIONAL: the shortest shared run of words that counts as one claim; no study sets it

@@ -18,3 +18,10 @@ path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "362aaf499d97"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`, puis `Le premier travail`. Sa seule tâche, `Vérifier`, tient en deux commandes pour qui veut lancer les vérifications."
+
+[[answer]]
+check = "tree-shape"
+path = "checks/local"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `checks/local` is the folder the extension contract names for an extension's own checks, and the standard's runner loads every module it finds there."

@@ -54,9 +54,43 @@ jobs:
           done
       - name: Check the repository, tiers program and meaning
         run: python3 standard/checks/run.py repository --tiers program,meaning --judge flag
+      - name: Test the scope-overlap check
+        env:
+          READER_ERGONOMICS_CHECKS: ${{ github.workspace }}/standard/checks
+        run: python3 -m unittest discover -s repository/checks
       - name: List the questions left for judgment
         if: always()
         run: cat repository/checks/out/needs-judgment.md 2>/dev/null || echo "No questions for judgment."
+
+  # The family's own check, beside the one above: it reads the scope table of every member the front page lists, so
+  # it clones them all. It only warns (checks/local/scope_overlap.py says what it decides), and it also runs weekly,
+  # since a member can change without a push here.
+  scope-overlap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repository
+      - uses: actions/checkout@v4
+        with:
+          repository: Tewf/reader-ergonomics
+          ref: b9732b9814c71768f722691f3c5049ec2b8ed378   # v1.19.2 (reader-ergonomics extending.md, Versions)
+          path: standard
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Clone every member of the front page's table beside this repository
+        run: |
+          members=$(PYTHONPATH=standard/checks python3 -c "
+          import importlib.util
+          spec = importlib.util.spec_from_file_location('scope_overlap', 'repository/checks/local/scope_overlap.py')
+          module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+          print(*[name for name, _ in module.members_of(open('repository/README.md').read())])")
+          for name in $members; do
+            git clone --quiet --depth 1 "https://github.com/Tewf/$name" "$name" || echo "::warning::could not clone $name"
+          done
+      - name: Compare the scope tables
+        run: python3 standard/checks/run.py repository --tiers program --only scope-overlap --judge none
 
   weekly:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
