@@ -1,12 +1,13 @@
 # AI-augmented
 
-> The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap. Scope only.
+> The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap. A first-pass review names the field and the baseline.
 
 Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
 
 ## The repository
 
 - [AI-augmented](https://tewf.github.io/ai-augmented/README.md): the scope, the first job and the questions its review must answer
+- [Evidence](https://tewf.github.io/ai-augmented/evidence/README.md): the review of what the field calls this family, and its bibliography
 - [Decisions](https://tewf.github.io/ai-augmented/decisions/README.md): one record per choice that shapes the repository
 
 ## Contributing
