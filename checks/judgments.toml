@@ -16,5 +16,5 @@ answer = "It stays: `decisions` is the folder the decision-record shape names fo
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
-file = "287ba803c4e8"
+file = "362aaf499d97"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`, puis `Le premier travail`. Sa seule tâche, `Vérifier`, tient en deux commandes pour qui veut lancer les vérifications."

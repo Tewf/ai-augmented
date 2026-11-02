@@ -72,7 +72,8 @@ digraph map {
 | [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | whether the recursive topic encodes every problem at a cognitive cost a person bears, and how fast a project converges, to what | scope only |
 | [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | what each real project run with the method cost and produced | scope only |
 
-The first family's counterpart of the project is [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
+The first family has its own front page, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family); its
+counterpart of the project is [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
 The bridge is shared with the [reader-ergonomics family](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/extending.md): the blueprint stays a member there, and
 every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md) (v1.19.2) and runs its checks in CI.
 
