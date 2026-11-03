@@ -12,6 +12,7 @@ project:
 
 website:
   title: "AI-augmented"
+  description: "The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap, with the principles that rule rests on."
   site-url: "https://tewf.github.io/ai-augmented/"
   repo-url: "https://github.com/Tewf/ai-augmented"
   repo-actions: [source, issue]
