@@ -305,3 +305,73 @@ path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "149a2a9ee2b0"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: `AGENTS.md` tells a person or model to run the same checks by hand, and the workflow runs them on each `push`; the two moved together at the pin, not by design."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with CHANGELOG.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: `CHANGELOG.md` records each pin move, and the workflow runs on each `push`; the changelog is a record that no job reads."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.fr.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: the workflow checks the documents on each `push`, and `README.fr.md` is the French front page, kept in step with `README.md` by the repository's own rule."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: the workflow checks the front page on each `push`; `README.md` is that page, and the French page is kept in step with it."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with checks/config.toml in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: the workflow runs the checks, and they read `checks/config.toml` at run time, so the config holds the values and the workflow only runs them."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6a48cb8f4d26"
+answer = "Link, do not share a folder: decision 0003 added the clones of the `meaning` job in this workflow; the index in `decisions/README.md` is read by no job, and the co-change is that one decision."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "529d8518e965"
+answer = "Link, do not share a folder: decision 0003 lands in both; the changelog says `A pin move is recorded here`, not in decisions, so each keeps its own role and links the other."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "149a2a9ee2b0"
+answer = "Link, do not share a folder: the front page's table links the index, which lists `une fiche par choix` per record; the two change together when a record lands, as a link should."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b1bc5ff5fe97"
+answer = "Link, do not share a folder: the front page's table links the index, whose wording is `one record per choice that shapes this repository`; the link is where the two meet."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "7528ac404830"
+answer = "Link, do not share a folder: decision 0003 sets `semantic_threshold` in this config, and the record links to that value rather than copying it."
