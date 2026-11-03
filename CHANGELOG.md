@@ -7,6 +7,7 @@ A pin move is recorded here, not in decisions/.
 
 ### Changed
 
+- Pinned reader-ergonomics v1.21.0 (`2e5b6f0`), from v1.20.0 (`4f99372`): duplication skips the lines a declared shape prescribes
 - The agent reader style: the brief with its four headings halves a cheap model's failures against no brief (measured,
   descriptive); naming the checks adds nothing once tests are hidden (not supported). Brief test, round two, 180 calls.
 - Pinned reader-ergonomics v1.20.0 (`4f99372`), from v1.19.2 (`b9732b9`): the runner's verdicts file (`--out`), and hand-written llms.txt lines kept through a rebuild

@@ -35,12 +35,12 @@ copie.
 
    ```sh
    git clone https://github.com/Tewf/reader-ergonomics
-   git -C reader-ergonomics checkout 4f99372093729dacf982e9174e94f6b8793c513d
+   git -C reader-ergonomics checkout 2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a
    python3 reader-ergonomics/checks/run.py chemin/vers/votre/depot
    ```
 
 5. Comment prendre votre propre version, et où va un désaccord : la section
-   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/README.md#take-your-own-version)
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/README.md#take-your-own-version)
    de la norme.
 
 ## La carte
@@ -109,8 +109,8 @@ digraph map {
 
 La première famille a sa propre page d'accueil, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family) ;
 son pendant du projet est [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project), et son membre pour la revue de littérature comme genre est [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review).
-Le pont est partagé avec la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/extending.md) : le blueprint y reste membre, et
-chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md) (v1.20.0) et exécute ses vérifications en CI.
+Le pont est partagé avec la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/extending.md) : le blueprint y reste membre, et
+chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md) (v1.21.0) et exécute ses vérifications en CI.
 
 ## Les règles
 

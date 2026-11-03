@@ -3,7 +3,7 @@
 **Claim:** a member's scope is a table of in, later and out rows, and every row says why.
 
 - **Grade:** convention, untested.
-- **Evidence:** the table on the [front page](../../README.md#the-rules) and in each member; [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/principles/page/signal-the-structure.md) in the standard for a table over prose.
+- **Evidence:** the table on the [front page](../../README.md#the-rules) and in each member; [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/principles/page/signal-the-structure.md) in the standard for a table over prose.
 - **Check:** `scope-table` (exact: the header, the kinds and their order, a reason in every row).
 - **Reader styles:** none.
 

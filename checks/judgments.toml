@@ -146,13 +146,6 @@ file = "c9e5b879a7c1"
 answer = "No: `House conventions` lists the typography and commit rules for a change, which is the same role as the rest of the file, how to change this repository."
 
 [[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "da5d9b9665f4"
-answer = "One role: la page d'accueil de la famille, `La carte` puis les membres; elle passe le seuil parce qu'elle porte le bloc `La prendre`, un pointeur, et reste entière."
-
-[[answer]]
 check = "co-change"
 path = "AGENTS.md"
 question = "changed together with checks/config.toml in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -174,67 +167,11 @@ file = "c9e5b879a7c1"
 answer = "No: `House conventions` lists the typography and commit rules for a change, which is the same role as the rest of the file, how to change this repository."
 
 [[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "25ce66734621"
-answer = "One role: la page d'accueil de la famille, `La carte` puis les membres; elle passe le seuil parce qu'elle porte le bloc `La prendre` et la vérification sémantique, un pointeur, et reste entière."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "463b9fad96a1"
-answer = "One role: the family's front page, `The map` then the members; it passes the trigger because it carries the take-it block and the semantic pass, pointers, and stays whole."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "They stay apart: `AGENTS.md` says how to change the repository, and `checks.yml` is the workflow that runs the checks; both moved at the release and again when the meaning job gained its member clones, not by design."
-
-[[answer]]
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "25ce66734621"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "Link, do not share a folder: the workflow tests the repository's documents, and the rule each check reads is written where it runs. `push` runs the checks on every change."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with CHANGELOG.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "Link, do not share a folder: a change to a check is recorded in the changelog, and the workflow runs on each `push`."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with README.fr.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "Link, do not share a folder: the workflow checks both front pages, English and French, on each `push`."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "Link, do not share a folder: the workflow checks the front page on each `push`, and the French page is linked from it."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with checks/config.toml in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ef84bde02db8"
-answer = "Link, do not share a folder: the workflow reads the config, and the config is read at run time on each `push`."
 
 [[answer]]
 check = "document-mode"
@@ -249,20 +186,6 @@ path = "evidence/family-name/review.md"
 question = "the name 'review' and the opening are far apart in meaning (0.13): does the name predict the content?"
 file = "0b50fcf0575e"
 answer = "Keep the name: the file is a review, and its opening, `surveys` first, states the order. The low meaning overlap is the title's form, not a wrong name."
-
-[[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "8664b71f8770"
-answer = "It stays: its one role is the front page that opens the repository, read as `La carte` first. The length comes from the findings, which the reader needs in place."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "16e1f6cbbfba"
-answer = "It stays: its one role is the front page that opens the repository, read as `Status` first. The length comes from the findings, which the reader needs in place."
 
 [[answer]]
 check = "document-mode"
@@ -286,95 +209,11 @@ file = "a0aaf63a0d95"
 answer = "Keep the name: the file frames the problem, and its opening names the field's terms, as `field` shows. The low meaning overlap is the title's form, not a wrong name."
 
 [[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "149a2a9ee2b0"
-answer = "It stays: its one role is the front page that opens the family, read as `La carte` first. The length comes from the member table, which the reader needs in place."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "b1bc5ff5fe97"
-answer = "It stays: its one role is the front page that opens the family, read as `The map` first. The length comes from the member table, which the reader needs in place."
-
-[[answer]]
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "149a2a9ee2b0"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: `AGENTS.md` tells a person or model to run the same checks by hand, and the workflow runs them on each `push`; the two moved together at the pin, not by design."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with CHANGELOG.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: `CHANGELOG.md` records each pin move, and the workflow runs on each `push`; the changelog is a record that no job reads."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with README.fr.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: the workflow checks the documents on each `push`, and `README.fr.md` is the French front page, kept in step with `README.md` by the repository's own rule."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: the workflow checks the front page on each `push`; `README.md` is that page, and the French page is kept in step with it."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with checks/config.toml in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: the workflow runs the checks, and they read `checks/config.toml` at run time, so the config holds the values and the workflow only runs them."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6a48cb8f4d26"
-answer = "Link, do not share a folder: decision 0003 added the clones of the `meaning` job in this workflow; the index in `decisions/README.md` is read by no job, and the co-change is that one decision."
-
-[[answer]]
-check = "co-change"
-path = "CHANGELOG.md"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "529d8518e965"
-answer = "Link, do not share a folder: decision 0003 lands in both; the changelog says `A pin move is recorded here`, not in decisions, so each keeps its own role and links the other."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "149a2a9ee2b0"
-answer = "Link, do not share a folder: the front page's table links the index, which lists `une fiche par choix` per record; the two change together when a record lands, as a link should."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "b1bc5ff5fe97"
-answer = "Link, do not share a folder: the front page's table links the index, whose wording is `one record per choice that shapes this repository`; the link is where the two meet."
-
-[[answer]]
-check = "co-change"
-path = "checks/config.toml"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "7528ac404830"
-answer = "Link, do not share a folder: decision 0003 sets `semantic_threshold` in this config, and the record links to that value rather than copying it."
 
 [[answer]]
 check = "document-mode"
@@ -389,3 +228,339 @@ path = "evidence/family-name/sources.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "fa4106ba91b8"
 answer = "Reference: the file follows its shape and is consulted part by part; its heading `Sources: the pool and its quality` names the one thing it holds."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "add88a3ca4cb"
+answer = "It stays: its one role is the front page that opens the family, read as `La carte` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "41dc7a2b4232"
+answer = "It stays: its one role is the front page that opens the family, read as `The map` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with CHANGELOG.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.fr.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with checks/config.toml in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with decisions/README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "801a7bc59079"
+answer = "They stay apart: `.github/workflows/checks.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with CHANGELOG.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with README.fr.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with checks/config.toml in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a9096a6d6e4f"
+answer = "They stay apart: `.github/workflows/pages.yml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "AGENTS.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "de6947c86b1f"
+answer = "They stay apart: `AGENTS.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "AGENTS.md"
+question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "de6947c86b1f"
+answer = "They stay apart: `AGENTS.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "95dbd6d5c342"
+answer = "They stay apart: `CHANGELOG.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "95dbd6d5c342"
+answer = "They stay apart: `CHANGELOG.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with decisions/README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "95dbd6d5c342"
+answer = "They stay apart: `CHANGELOG.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "95dbd6d5c342"
+answer = "They stay apart: `CHANGELOG.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "CHANGELOG.md"
+question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "95dbd6d5c342"
+answer = "They stay apart: `CHANGELOG.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "add88a3ca4cb"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "add88a3ca4cb"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "add88a3ca4cb"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "add88a3ca4cb"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "add88a3ca4cb"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "41dc7a2b4232"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "41dc7a2b4232"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "41dc7a2b4232"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "41dc7a2b4232"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "41dc7a2b4232"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "046abd27230a"
+answer = "They stay apart: `checks/config.toml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "046abd27230a"
+answer = "They stay apart: `checks/config.toml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with decisions/README.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "046abd27230a"
+answer = "They stay apart: `checks/config.toml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "046abd27230a"
+answer = "They stay apart: `checks/config.toml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "046abd27230a"
+answer = "They stay apart: `checks/config.toml` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "decisions/0003-the-overlap-check-gains-a-semantic-pass.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "4c91246c451a"
+answer = "They stay apart: `decisions/0003-the-overlap-check-gains-a-semantic-pass.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "decisions/README.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "aa75fe5a7d63"
+answer = "They stay apart: `decisions/README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "evidence/bibliography.md"
+question = "changed together with evidence/family-name/frame.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "45ae9755e7f2"
+answer = "They stay apart: `evidence/bibliography.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "evidence/bibliography.md"
+question = "changed together with evidence/family-name/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "45ae9755e7f2"
+answer = "They stay apart: `evidence/bibliography.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "evidence/bibliography.md"
+question = "changed together with evidence/family-name/review.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "45ae9755e7f2"
+answer = "They stay apart: `evidence/bibliography.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "evidence/bibliography.md"
+question = "changed together with evidence/family-name/sources.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "45ae9755e7f2"
+answer = "They stay apart: `evidence/bibliography.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "principles/README.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8b8658370233"
+answer = "They stay apart: `principles/README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "principles/README.md"
+question = "changed together with principles/scope/scope-table-with-why.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8b8658370233"
+answer = "They stay apart: `principles/README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
