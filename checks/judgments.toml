@@ -74,3 +74,17 @@ path = "evidence/family-name/state-of-the-art.md"
 question = "the name 'state' and the opening are far apart in meaning (0.00): does the name predict the content?"
 file = "7df40981066c"
 answer = "Yes: `State of the art` is step 3 of the method, and the file holds the best evidence and the practice most adopted."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/review.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "30b0ec18d14b"
+answer = "Yes: it is a reference, a lookup of what each source says, and `What the strands say` gathers the answers to the questions."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
+file = "30b0ec18d14b"
+answer = "Yes: `Review` is the second of the method's five steps, `Step 2`, and the file reads the surveys, the seminal works and the practice."
