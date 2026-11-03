@@ -33,3 +33,16 @@ shared_links = []
 [scope_overlap]
 front_page = "README.md"
 min_words = 3   # PROVISIONAL: the shortest shared run of words that counts as one claim; no study sets it
+
+[standard_card]
+facets = ["claims", "scope"]   # the principle groups, in the order the card shows them
+
+# The shape this repository adds (shapes/scope-table.md): its documents are found by their Shape line.
+[scope_table]
+
+# Tables that name one arm of a person, a model and both name all three (principles/claims). Warns only.
+[three_arms]
+exempt = ["evidence/bibliography.md"]
+
+[shape_example]
+exempt = ["shapes/README.md", "shapes/examples/*"]   # the folder README, and the examples, which follow a shape and are not one
