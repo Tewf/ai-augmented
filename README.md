@@ -66,11 +66,11 @@ digraph map {
 | Member | Problem | Status |
 |---|---|---|
 | [reader-ergonomics-blueprint](https://github.com/Tewf/reader-ergonomics-blueprint) | a person's reasoning as a tree of topics, a checker per part, Lean first, a model that interprets and guides | review done, baseline B1 named, nothing built |
-| [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) | how a person, a model and a machine are set up and run one project together | scope only |
-| [ai-augmented-ide](https://github.com/Tewf/ai-augmented-ide) | the software that implements that method inside the editor | scope only |
-| [ai-augmented-agents](https://github.com/Tewf/ai-augmented-agents) | several agents, people and models, on one project: delegation, coordination, incentives | scope only |
-| [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | whether the recursive topic encodes every problem at a cognitive cost a person bears, and how fast a project converges, to what | scope only |
-| [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | what each real project run with the method cost and produced | scope only |
+| [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) | how a person, a model and a machine are set up and run one project together | review done (39 sources, baseline B1), design document written, awaiting approval |
+| [ai-augmented-ide](https://github.com/Tewf/ai-augmented-ide) | the software that implements that method inside the editor | état de l'art done (28 sources), baseline Kilo Code; nothing built yet |
+| [ai-augmented-agents](https://github.com/Tewf/ai-augmented-agents) | several agents, people and models, on one project: delegation, coordination, incentives | review done (35 sources), baseline the 2026-10-29 arrangement; brief test running |
+| [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | whether the recursive topic encodes every problem at a cognitive cost a person bears, and how fast a project converges, to what | review done (34 sources); a provisional cost of a tree of topics, measured on the family |
+| [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | what each real project run with the method cost and produced | review done (37 sources); two cases written, with their measures program |
 
 The first family has its own front page, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family); its
 counterpart of the project is [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).

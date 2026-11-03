@@ -65,11 +65,11 @@ digraph map {
 | Membre | Problème | État |
 |---|---|---|
 | [reader-ergonomics-blueprint](https://github.com/Tewf/reader-ergonomics-blueprint) | le raisonnement d'une personne en arbre de topics, un vérificateur par partie, Lean d'abord, un modèle qui interprète et oriente | revue faite, référence B1 nommée, rien de construit |
-| [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) | comment une personne, un modèle et une machine sont mis en place et mènent un projet ensemble | périmètre seul |
-| [ai-augmented-ide](https://github.com/Tewf/ai-augmented-ide) | le logiciel qui met cette méthode en œuvre dans l'éditeur | périmètre seul |
-| [ai-augmented-agents](https://github.com/Tewf/ai-augmented-agents) | plusieurs agents, personnes et modèles, sur un projet : délégation, coordination, incitations | périmètre seul |
-| [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | si le topic récursif encode tout problème à un coût cognitif supportable, et à quelle vitesse un projet converge, vers quoi | périmètre seul |
-| [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | ce que chaque projet réel mené avec la méthode a coûté et produit | périmètre seul |
+| [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) | comment une personne, un modèle et une machine sont mis en place et mènent un projet ensemble | revue faite (39 sources, référence B1), document de conception écrit, en attente d'approbation |
+| [ai-augmented-ide](https://github.com/Tewf/ai-augmented-ide) | le logiciel qui met cette méthode en œuvre dans l'éditeur | état de l'art fait (28 sources), référence Kilo Code ; rien de construit encore |
+| [ai-augmented-agents](https://github.com/Tewf/ai-augmented-agents) | plusieurs agents, personnes et modèles, sur un projet : délégation, coordination, incitations | revue faite (35 sources), référence l'arrangement du 2026-10-29 ; test du brief en cours |
+| [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | si le topic récursif encode tout problème à un coût cognitif supportable, et à quelle vitesse un projet converge, vers quoi | revue faite (34 sources) ; un coût provisoire d'un arbre de topics, mesuré sur la famille |
+| [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | ce que chaque projet réel mené avec la méthode a coûté et produit | revue faite (37 sources) ; deux cas écrits, avec leur programme de mesures |
 
 La première famille a sa propre page d'accueil, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family) ;
 son pendant du projet est [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
