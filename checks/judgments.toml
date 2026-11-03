@@ -249,3 +249,38 @@ path = "evidence/family-name/review.md"
 question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
 file = "11a0cd11cae0"
 answer = "Keep the name: the file is a review, and its opening, `surveys` first, states the order. The low meaning overlap is the title's form, not a wrong name."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "8664b71f8770"
+answer = "It stays: its one role is the front page that opens the repository, read as `La carte` first. The length comes from the findings, which the reader needs in place."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "16e1f6cbbfba"
+answer = "It stays: its one role is the front page that opens the repository, read as `Status` first. The length comes from the findings, which the reader needs in place."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "8664b71f8770"
+answer = "Reference: the page a reader opens first, looked up for `La carte`. One mode, reference; the steps live in the linked files."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/frame.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "a0aaf63a0d95"
+answer = "Reference: the frame is looked up for the field's names, as in `Sub-questions`. One mode, reference."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.17): does the name predict the content?"
+file = "a0aaf63a0d95"
+answer = "Keep the name: the file frames the problem, and its opening names the field's terms, as `field` shows. The low meaning overlap is the title's form, not a wrong name."
