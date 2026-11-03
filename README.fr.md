@@ -45,10 +45,10 @@ copie.
 
 ## La carte
 
-![Deux familles côte à côte : dans la famille reader-ergonomics, le topic et le projet ; dans la famille AI-augmented, le blueprint comme pont, le projet, l'IDE qui le met en œuvre, les agents et les cas qui l'utilisent et le mesurent, et les fondements qui lisent les cas. Le hub est au-dessus des deux et rien ne pointe vers lui.](map.svg)
+![Deux familles côte à côte : dans la famille reader-ergonomics, le topic et le projet ; dans la famille AI-augmented, le blueprint comme pont, le projet, l'IDE qui le met en œuvre, les agents et les cas qui l'utilisent et le mesurent, la carte des pratiques et la collecte de données qu'elle lie, et les fondements qui lisent les cas. Le genre de la revue est dans la première famille. Le hub est au-dessus des deux et rien ne pointe vers lui.](map.svg)
 
 <details>
-<summary>Graphviz source</summary>
+<summary>Source Graphviz</summary>
 
 ```dot
 // The map of the two families. Colours: reader-ergonomics family blue, AI-augmented family green, the bridge orange,
@@ -62,6 +62,7 @@ digraph map {
     label=<<b>reader-ergonomics family</b><br/><font point-size="11" color="#55575F">the person alone</font>>; labeljust=l; style="rounded"; color="#2F5DA8"; fontname="Inter"; fontsize=12;
     T [label=<<b>reader-ergonomics-topic</b><br/><font point-size="11" color="#55575F">one unit of writing, recursive</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
     P [label=<<b>reader-ergonomics-project</b><br/><font point-size="11" color="#55575F">one person, problem to result</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+    RV [label=<<b>reader-ergonomics-review</b><br/><font point-size="11" color="#55575F">the review as a genre</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   }
   subgraph cluster_ai {
     label=<<b>AI-augmented family</b><br/><font point-size="11" color="#55575F">person, model, machine</font>>; labeljust=l; style="rounded"; color="#2E7D4F"; fontname="Inter"; fontsize=12;
@@ -71,6 +72,8 @@ digraph map {
     AG [label=<<b>ai-augmented-agents</b><br/><font point-size="11" color="#55575F">several agents on one project</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     F [label=<<b>ai-augmented-foundations</b><br/><font point-size="11" color="#55575F">complete? does it converge?</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     C [label=<<b>ai-augmented-cases</b><br/><font point-size="11" color="#55575F">real projects, measured</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    PRC [label=<<b>ai-augmented-practice</b><br/><font point-size="11" color="#55575F">each practice as an algorithm</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    DG [label=<<b>ai-augmented-data-gathering</b><br/><font point-size="11" color="#55575F">efficient data gathering</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   }
   HUB -> T [style=invis];
   HUB -> BP [style=invis];
@@ -82,6 +85,10 @@ digraph map {
   AP -> AG [dir=back, label=" uses"];
   AP -> C [dir=back, label=" measures"];
   C -> F [dir=back, label=" reads"];
+  AP -> PRC [dir=back, label=" reads"];
+  PRC -> DG [label=" links"];
+  T -> RV [dir=back, label=" builds on"];
+  DG -> RV [style=dashed, label=" reviews in its shapes", constraint=false];
   {rank=same; T; BP}
   {rank=same; P; AP}
 }
@@ -97,9 +104,11 @@ digraph map {
 | [ai-augmented-agents](https://github.com/Tewf/ai-augmented-agents) | plusieurs agents, personnes et modèles, sur un projet : délégation, coordination, incitations | revue faite (35 sources), référence l'arrangement du 2026-10-29 ; test du brief en cours |
 | [ai-augmented-foundations](https://github.com/Tewf/ai-augmented-foundations) | si le topic récursif encode tout problème à un coût cognitif supportable, et à quelle vitesse un projet converge, vers quoi | revue faite (34 sources) ; un coût provisoire d'un arbre de topics, mesuré sur la famille |
 | [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | ce que chaque projet réel mené avec la méthode a coûté et produit | revue faite (37 sources) ; deux cas écrits, avec leur programme de mesures |
+| [ai-augmented-practice](https://github.com/Tewf/ai-augmented-practice) | chaque pratique de la méthode comme un algorithme pour un problème nommé, avec le meilleur algorithme connu, l'écart et le changement proposé | périmètre posé le 2026-11-03 ; première revue non commencée |
+| [ai-augmented-data-gathering](https://github.com/Tewf/ai-augmented-data-gathering) | la manière la plus efficace de collecter des données en général, la quête d'information d'abord | périmètre posé le 2026-11-03 ; première revue non commencée |
 
 La première famille a sa propre page d'accueil, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family) ;
-son pendant du projet est [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
+son pendant du projet est [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project), et son membre pour la revue de littérature comme genre est [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review).
 Le pont est partagé avec la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/extending.md) : le blueprint y reste membre, et
 chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md) (v1.20.0) et exécute ses vérifications en CI.
 

@@ -284,3 +284,24 @@ path = "evidence/family-name/frame.md"
 question = "the name 'frame' and the opening are far apart in meaning (0.17): does the name predict the content?"
 file = "a0aaf63a0d95"
 answer = "Keep the name: the file frames the problem, and its opening names the field's terms, as `field` shows. The low meaning overlap is the title's form, not a wrong name."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "149a2a9ee2b0"
+answer = "It stays: its one role is the front page that opens the family, read as `La carte` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "b1bc5ff5fe97"
+answer = "It stays: its one role is the front page that opens the family, read as `The map` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "149a2a9ee2b0"
+answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
