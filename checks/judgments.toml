@@ -71,8 +71,8 @@ answer = "Yes: `Review` is step 2 of the method, and the file reads surveys, sem
 [[answer]]
 check = "name-content"
 path = "evidence/family-name/state-of-the-art.md"
-question = "the name 'state' and the opening are far apart in meaning (0.00): does the name predict the content?"
-file = "7df40981066c"
+question = "the name 'state' and the opening are far apart in meaning (0.02): does the name predict the content?"
+file = "53091c1678c3"
 answer = "Yes: `State of the art` is step 3 of the method, and the file holds the best evidence and the practice most adopted."
 
 [[answer]]
@@ -106,8 +106,8 @@ answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les 
 [[answer]]
 check = "name-content"
 path = "evidence/family-name/against.md"
-question = "the name 'against' and the opening are far apart in meaning (0.14): does the name predict the content?"
-file = "8b647f4f8bd3"
+question = "the name 'against' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "2c436adcb879"
 answer = "Yes: `Against` is the folder-level name for the evidence against, and the opening says it is where the combination fails."
 
 [[answer]]
@@ -121,7 +121,7 @@ answer = "No: `House conventions` lists the typography and commit rules for a ch
 check = "section-cohesion"
 path = "evidence/family-name/against.md"
 question = "section 'The jagged frontier' is far from every other section (0.19): a second role?"
-file = "8b647f4f8bd3"
+file = "2c436adcb879"
 answer = "No: `The jagged frontier` is one more piece of evidence that the combination fails, like the meta-analysis above it; the role is the file's, evidence against."
 
 [[answer]]
@@ -246,8 +246,8 @@ answer = "Reference: a reader looks up what a source found and how it is graded,
 [[answer]]
 check = "name-content"
 path = "evidence/family-name/review.md"
-question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
-file = "11a0cd11cae0"
+question = "the name 'review' and the opening are far apart in meaning (0.13): does the name predict the content?"
+file = "0b50fcf0575e"
 answer = "Keep the name: the file is a review, and its opening, `surveys` first, states the order. The low meaning overlap is the title's form, not a wrong name."
 
 [[answer]]
@@ -375,3 +375,17 @@ path = "checks/config.toml"
 question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "7528ac404830"
 answer = "Link, do not share a folder: decision 0003 sets `semantic_threshold` in this config, and the record links to that value rather than copying it."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/review.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "0b50fcf0575e"
+answer = "Reference: the file follows its shape and is consulted part by part; its heading `Review: surveys first, then the seminal works, then practice` names the one thing it holds."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/sources.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "fa4106ba91b8"
+answer = "Reference: the file follows its shape and is consulted part by part; its heading `Sources: the pool and its quality` names the one thing it holds."

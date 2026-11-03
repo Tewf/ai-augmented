@@ -2,6 +2,8 @@
 
 Step 4. "Nobody has done this" is kept apart from "we have not done this here".
 
+**Shape:** [position](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/position.md)
+
 ## Which field
 
 - **Intelligence augmentation** is the root: a person decides, tools extend what the person can do (Engelbart 1962; Licklider 1960).

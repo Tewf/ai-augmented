@@ -2,6 +2,8 @@
 
 Step 3. Upper bounds (what experiments achieved) are kept apart from lower bounds (what they found impossible or harmful).
 
+**Shape:** [state of the art](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/state-of-the-art.md)
+
 ## Best evidence
 
 | Question | Holder | Result | Grade |

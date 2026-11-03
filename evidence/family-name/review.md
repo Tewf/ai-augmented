@@ -2,6 +2,8 @@
 
 Step 2, read on 2026-11-02. Questions Q1 to Q4 are in [frame](frame.md); grades in [sources](sources.md).
 
+**Shape:** [review](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/review.md)
+
 ## 0. Existing reviews
 
 - O'Neill 2020 reviews 76 empirical articles on human-autonomy teaming (read in the abstract, secondary). Its variables: agent characteristics, team composition, task, individual differences, training, communication. Grade: supported with caveat.

@@ -3,6 +3,8 @@
 27 sources: 23 read on 2026-11-02, and 4 added by a forward-citation pass on 2026-11-03. Method in [protocol](protocol.md), terms in [frame](frame.md).
 Below 10 of 20, a grey source is an example of practice only.
 
+**Shape:** [sources](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/sources.md)
+
 ## Flow
 
 | Stage | Count |

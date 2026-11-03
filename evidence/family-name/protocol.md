@@ -2,6 +2,8 @@
 
 A first pass by one reviewer on 2026-11-02, after Garousi 2019. It aims for 15 to 25 sources and held 23 on 2026-11-02; a forward pass on 2026-11-03 added 4 (27 in all).
 
+**Shape:** [protocol](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/protocol.md)
+
 ## Why grey literature
 
 Garousi's seven questions, answered for this topic.

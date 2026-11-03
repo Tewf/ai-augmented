@@ -2,6 +2,8 @@
 
 Step 5. The review is finished when it names the baseline.
 
+**Shape:** [baseline](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/baseline.md)
+
 ## Baseline H1
 
 For vocabulary and map: **Akata 2020**'s hybrid intelligence, with **Parasuraman 2000**'s four functions and levels for who does what.

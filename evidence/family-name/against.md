@@ -2,6 +2,8 @@
 
 The evidence that a person plus a model is not always better.
 
+**Shape:** [against](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/against.md)
+
 ## The meta-analysis
 
 - Vaccaro 2024 pooled 106 experiments and 370 effect sizes. Human-AI combinations did worse than the best of human or AI alone: Hedges' g of -0.23, confidence interval -0.39 to -0.07 (secondary, read in the abstract).

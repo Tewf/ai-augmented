@@ -3,6 +3,8 @@
 Step 1 of the review, read on 2026-11-02: the problem, the field's names for it, and which one fits this family.
 It is a first pass of 27 sources, not the full review the sibling topics ran.
 
+**Shape:** [frame](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/frame.md)
+
 ## The problem in one sentence
 
 How a person, a language model and a machine that checks share one project, so that the person decides and every claim is checked where it stands.
