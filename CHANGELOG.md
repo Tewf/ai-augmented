@@ -3,6 +3,14 @@
 The releases this repository pins, newest first, in the form of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 A pin move is recorded here, not in decisions/.
 
+## Unreleased
+
+### Added
+
+- A semantic pass of the scope-overlap check (`checks/local/scope_overlap_semantic.py`, meaning tier), with a provisional
+  threshold of 0.70 in `checks/config.toml` and 8 unit tests; the checks workflow clones the members for it.
+- Decision 0003, which records the threshold and why the pass is a check of its own.
+
 ## [0.1.0] - 2026-11-03
 
 ### Added

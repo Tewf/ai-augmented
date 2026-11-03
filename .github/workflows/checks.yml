@@ -52,6 +52,17 @@ jobs:
           for name in $(python3 -c "import tomllib; print(*tomllib.load(open('repository/checks/config.toml', 'rb'))['bibliography_keys']['family'])"); do
             git clone --quiet --depth 1 "https://github.com/Tewf/$name" "$name"
           done
+      # The semantic pass of the scope-overlap check (meaning tier) reads every member's scope table.
+      - name: Clone every member of the front page's table beside this repository, for scope-overlap-semantic
+        run: |
+          members=$(PYTHONPATH=standard/checks python3 -c "
+          import importlib.util
+          spec = importlib.util.spec_from_file_location('scope_overlap', 'repository/checks/local/scope_overlap.py')
+          module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+          print(*[name for name, _ in module.members_of(open('repository/README.md').read())])")
+          for name in $members; do
+            [ -d "$name" ] || git clone --quiet --depth 1 "https://github.com/Tewf/$name" "$name" || echo "::warning::could not clone $name"
+          done
       - name: Run the unit tests of checks/
         env:
           READER_ERGONOMICS_CHECKS: ${{ github.workspace }}/standard/checks

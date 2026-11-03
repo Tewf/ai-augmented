@@ -33,6 +33,10 @@ shared_links = []
 [scope_overlap]
 front_page = "README.md"
 min_words = 3   # PROVISIONAL: the shortest shared run of words that counts as one claim; no study sets it
+# The semantic pass (checks/local/scope_overlap_semantic.py, meaning tier): two "in" rows of different members whose
+# cosine similarity is at least this value are a warning. PROVISIONAL: between the best non-overlap (0.65) and the
+# worst planted paraphrase (0.76) of its tests; the family's closest pair scores 0.76.
+semantic_threshold = 0.70
 
 [standard_card]
 facets = ["claims", "scope"]   # the principle groups, in the order the card shows them

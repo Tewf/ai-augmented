@@ -172,3 +172,31 @@ path = "AGENTS.md"
 question = "section 'House conventions' is far from every other section (0.24): a second role?"
 file = "39ebea697ef5"
 answer = "No: `House conventions` lists the typography and commit rules for a change, which is the same role as the rest of the file, how to change this repository."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "25ce66734621"
+answer = "One role: la page d'accueil de la famille, `La carte` puis les membres; elle passe le seuil parce qu'elle porte le bloc `La prendre` et la vérification sémantique, un pointeur, et reste entière."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "463b9fad96a1"
+answer = "One role: the family's front page, `The map` then the members; it passes the trigger because it carries the take-it block and the semantic pass, pointers, and stays whole."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "They stay apart: `AGENTS.md` says how to change the repository, and `checks.yml` is the workflow that runs the checks; both moved at the release and again when the meaning job gained its member clones, not by design."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "25ce66734621"
+answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."

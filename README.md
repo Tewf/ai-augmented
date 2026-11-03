@@ -11,7 +11,7 @@ member owns.
 This page in French: [README.fr.md](README.fr.md).
 
 > **Status (2026-11-03):** version 0.1.0. Built: the map, the words, a first-pass review of 23 sources that names its
-> baseline (the prefix is kept), three principles, a shape, the reader style of an agent, and three checks with 44 unit
+> baseline (the prefix is kept), three principles, a shape, the reader style of an agent, and four checks with 52 unit
 > tests. Open: a full review pass with forward citations and a grey search, and the members' own work. It is not an
 > official standard, not a peer-reviewed study and not a new result.
 >
@@ -145,6 +145,10 @@ Beside it, the family's own check, [scope_overlap.py](checks/local/scope_overlap
 and warns when two members share a phrase of three words in their "in" rows. It warns and never fails, and its tests
 say what it cannot decide. The two new checks, [three_arms.py](checks/local/three_arms.py) and [scope_table.py](checks/local/scope_table.py), hold
 the measured principle and the shape, and are tested beside it. On the six members today it finds no shared phrase, which shows that the tables can be read, not that they do not overlap in meaning.
+
+A semantic pass, [scope_overlap_semantic.py](checks/local/scope_overlap_semantic.py), embeds each "in" row.
+It warns when two rows of different members reach a cosine of 0.70, provisional and set between the planted overlaps and the known non-overlaps of its tests.
+On the six members it warns on one pair, at 0.76: the project and the ide rows on what the model is handed.
 
 ## Check it
 

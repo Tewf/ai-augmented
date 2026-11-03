@@ -4,7 +4,7 @@
 
 - **Grade:** convention, argued from the standard's one-place-per-fact principle; untested for scope tables.
 - **Evidence:** the family's rule on the [front page](../../README.md#the-rules); [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/principles/collection/one-place-per-fact.md) in the standard.
-- **Check:** `scope-overlap` (heuristic: two members share a phrase of three words in their in rows).
+- **Check:** `scope-overlap` (heuristic: two members share a phrase of three words in their in rows) and `scope-overlap-semantic` (heuristic: two in rows of different members reach a cosine of 0.70).
 - **Reader styles:** none.
 
 ## What it asks

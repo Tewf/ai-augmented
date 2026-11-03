@@ -11,8 +11,8 @@ recouvrement entre deux, et rien qu'un membre possède.
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
 > **État (2026-11-03) :** version 0.1.0. Fait : la carte, les mots, une première passe de revue de 23 sources qui nomme
-> sa référence (le préfixe est conservé), trois principes, une forme, le style de lecteur d'un agent et trois
-> vérifications avec 44 tests unitaires. Ouvert : une passe complète de la revue avec citations suivantes et recherche
+> sa référence (le préfixe est conservé), trois principes, une forme, le style de lecteur d'un agent et quatre
+> vérifications avec 52 tests unitaires. Ouvert : une passe complète de la revue avec citations suivantes et recherche
 > grise, et le travail propre des membres. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
@@ -149,7 +149,10 @@ La revue est écrite en cinq étapes et nomme sa référence. Une passe complèt
 - elle avertit quand deux membres partagent une expression de trois mots dans leurs lignes « dedans » ;
 - elle n'échoue jamais, et ses tests disent ce qu'elle ne peut pas trancher ;
 - les deux nouvelles vérifications, [three_arms.py](checks/local/three_arms.py) et [scope_table.py](checks/local/scope_table.py), tiennent le principe mesuré et la forme, et sont testées à côté ;
-- sur les six membres d'aujourd'hui elle ne trouve aucune expression commune : les tables se lisent, mais le sens peut se recouvrir.
+- sur les six membres d'aujourd'hui elle ne trouve aucune expression commune : les tables se lisent, mais le sens peut se recouvrir ;
+- une passe sémantique, [scope_overlap_semantic.py](checks/local/scope_overlap_semantic.py), encode chaque ligne « dedans » ;
+- elle avertit quand deux lignes de membres différents atteignent un cosinus de 0,70, seuil provisoire placé entre les recouvrements plantés et les non-recouvrements de ses tests ;
+- sur les six membres elle avertit pour une paire, à 0,76 : les lignes de project et de ide sur ce qui est remis au modèle.
 
 ## Vérifier
 
