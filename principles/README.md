@@ -1,6 +1,6 @@
 # Principles
 
-The rules this family adds to [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md), one file each, in two groups. The card with every grade is [standard.md](../standard.md).
+The rules this family adds to [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md), one file each, in two groups. The card with every grade is [standard.md](../standard.md).
 
 | Group | What it holds |
 |---|---|

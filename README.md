@@ -32,12 +32,12 @@ The family's card and shape are meant to be copied and kept as your own. Copy th
 
    ```sh
    git clone https://github.com/Tewf/reader-ergonomics
-   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   git -C reader-ergonomics checkout 4f99372093729dacf982e9174e94f6b8793c513d
    python3 reader-ergonomics/checks/run.py path/to/your/repository
    ```
 
 5. How to take your own version, and where a disagreement goes: the standard's
-   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version).
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/README.md#take-your-own-version).
 
 ## The map
 
@@ -96,8 +96,8 @@ digraph map {
 
 The first family has its own front page, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family); its
 counterpart of the project is [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project).
-The bridge is shared with the [reader-ergonomics family](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/extending.md): the blueprint stays a member there, and
-every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md) (v1.19.2) and runs its checks in CI.
+The bridge is shared with the [reader-ergonomics family](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/extending.md): the blueprint stays a member there, and
+every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md) (v1.20.0) and runs its checks in CI.
 
 ## The rules
 

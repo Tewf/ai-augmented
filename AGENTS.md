@@ -1,11 +1,11 @@
 # Contributing to this repository
 
 For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere,
-read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md); this file is about this repository only.
+read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md); this file is about this repository only.
 
 ## Before writing
 
-1. Read the standard at the release this repository checks against (v1.19.2), and the front page's scope: what is in,
+1. Read the standard at the release this repository checks against (v1.20.0), and the front page's scope: what is in,
    what is out, and which neighbour holds what is out.
 2. The first pass of the review is written and names its baseline (H1). A full pass, with forward citations and a grey
    search, is open; stage it outside this repository until it adds to the baseline.
@@ -43,7 +43,7 @@ the checks both skip:
 
 ```sh
 rm -rf checks/out/standard && mkdir -p checks/out/standard
-git -C ../reader-ergonomics archive b9732b9 | tar -x -C checks/out/standard   # the commit checks.yml pins
+git -C ../reader-ergonomics archive 4f99372 | tar -x -C checks/out/standard   # the commit checks.yml pins
 python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
 ```
 

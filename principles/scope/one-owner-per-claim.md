@@ -3,7 +3,7 @@
 **Claim:** a thing is in the scope of one member of the family, and every other member links it.
 
 - **Grade:** convention, argued from the standard's one-place-per-fact principle; untested for scope tables.
-- **Evidence:** the family's rule on the [front page](../../README.md#the-rules); [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/principles/collection/one-place-per-fact.md) in the standard.
+- **Evidence:** the family's rule on the [front page](../../README.md#the-rules); [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/principles/collection/one-place-per-fact.md) in the standard.
 - **Check:** `scope-overlap` (heuristic: two members share a phrase of three words in their in rows) and `scope-overlap-semantic` (heuristic: two in rows of different members reach a cosine of 0.70).
 - **Reader styles:** none.
 
@@ -15,7 +15,7 @@
 
 ## Why
 
-- This is [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/principles/collection/one-place-per-fact.md) applied to scopes: knowledge that must change together lives in one place.
+- This is [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/principles/collection/one-place-per-fact.md) applied to scopes: knowledge that must change together lives in one place.
 - Two members claiming one thing are two places to change, and they drift.
 
 ## Limits
