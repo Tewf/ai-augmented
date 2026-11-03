@@ -33,6 +33,21 @@ Step 2, read on 2026-11-02. Questions Q1 to Q4 are in [frame](frame.md); grades 
 - Agentic AI Foundation 2026 is a convention for a file that briefs coding agents; the site claims use by over 60 thousand open-source projects. It is the owner's claim and scores below the threshold.
 - Practice runs ahead of the evidence: both conventions have adoption and no controlled study of their effect.
 
+## 4. Forward citations, added 2026-11-03
+
+Four works cite the three most-cited sources since 2024. They sharpen three findings.
+
+- The levels of automation are contested. A 2025 systematic review of levels-of-automation taxonomies finds critiques of
+  misinterpretation and of conceptual confusion between automation and autonomy (Richardson 2025). This qualifies
+  Parasuraman 2000: its levels are a useful vocabulary, not a settled measure.
+- Complementarity is the test, and it is rarely observed. Hemmer 2025 defines the complementary team performance that
+  neither the person nor the model reaches alone, and names information and capability asymmetry as its two sources.
+  González 2026 gives a framework of the conditions for that performance. Both sharpen Vaccaro 2024 and answer Q3 with
+  the conditions, not only the average.
+- Current interaction is narrow. A systematic review of 105 articles on AI-assisted decisions finds that most
+  interactions follow simplistic collaboration paradigms, with little truly interactive support (Gómez 2025, secondary,
+  read in the abstract). This supports the family's rule that the person decides and checks where each claim stands.
+
 ## What the strands say
 
 | Question | Answer from this pool |

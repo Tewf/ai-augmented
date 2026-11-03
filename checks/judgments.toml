@@ -200,3 +200,52 @@ path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "25ce66734621"
 answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "Link, do not share a folder: the workflow tests the repository's documents, and the rule each check reads is written where it runs. `push` runs the checks on every change."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with CHANGELOG.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "Link, do not share a folder: a change to a check is recorded in the changelog, and the workflow runs on each `push`."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.fr.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "Link, do not share a folder: the workflow checks both front pages, English and French, on each `push`."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "Link, do not share a folder: the workflow checks the front page on each `push`, and the French page is linked from it."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with checks/config.toml in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ef84bde02db8"
+answer = "Link, do not share a folder: the workflow reads the config, and the config is read at run time on each `push`."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/family-name/review.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "11a0cd11cae0"
+answer = "Reference: a reader looks up what a source found and how it is graded, as in `Practice`. The one mode is reference; the how-to of the search lives in protocol.md."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
+file = "11a0cd11cae0"
+answer = "Keep the name: the file is a review, and its opening, `surveys` first, states the order. The low meaning overlap is the title's form, not a wrong name."

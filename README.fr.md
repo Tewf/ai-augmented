@@ -10,7 +10,7 @@ recouvrement entre deux, et rien qu'un membre possède.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-03) :** version 0.1.0. Fait : la carte, les mots, une première passe de revue de 23 sources qui nomme
+> **État (2026-11-03) :** version 0.1.0. Fait : la carte, les mots, une première passe de revue de 27 sources qui nomme
 > sa référence (le préfixe est conservé), trois principes, une forme, le style de lecteur d'un agent et quatre
 > vérifications avec 52 tests unitaires. Ouvert : une passe complète de la revue avec citations suivantes et recherche
 > grise, et le travail propre des membres. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
@@ -127,7 +127,7 @@ chaque membre ici obéit à [reader-ergonomics](https://github.com/Tewf/reader-e
 
 ## Ce que la revue a trouvé
 
-Une première passe de 23 sources, dans [evidence](evidence/family-name/README.md).
+Une première passe de 27 sources, dans [evidence](evidence/family-name/README.md).
 
 1. **Le domaine dit intelligence augmentation et hybrid intelligence.** Engelbart 1962 et Licklider 1960 en sont les racines ; Akata 2020 est la communauté actuelle.
 2. **L'équipe humain-IA ne convient qu'en partie.** Dans une équipe, le modèle est un coéquipier ; ici il ne décide rien. Le préfixe « AI-augmented » suit le domaine et est conservé, non renommé.

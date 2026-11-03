@@ -1,6 +1,6 @@
 # Family name: what the field calls a person, a model and a machine on one project
 
-A first pass of 23 sources. It finds that the field's names are intelligence augmentation and hybrid intelligence, and that this family fits augmentation better than teaming.
+A first pass of 27 sources. It finds that the field's names are intelligence augmentation and hybrid intelligence, and that this family fits augmentation better than teaming.
 
 ## Files
 

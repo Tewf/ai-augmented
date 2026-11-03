@@ -10,7 +10,7 @@ member owns.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-03):** version 0.1.0. Built: the map, the words, a first-pass review of 23 sources that names its
+> **Status (2026-11-03):** version 0.1.0. Built: the map, the words, a first-pass review of 27 sources that names its
 > baseline (the prefix is kept), three principles, a shape, the reader style of an agent, and four checks with 52 unit
 > tests. Open: a full review pass with forward citations and a grey search, and the members' own work. It is not an
 > official standard, not a peer-reviewed study and not a new result.
@@ -125,7 +125,7 @@ every member here obeys [reader-ergonomics](https://github.com/Tewf/reader-ergon
 
 ## What the review found
 
-A first pass of 23 sources, in [evidence](evidence/family-name/README.md).
+A first pass of 27 sources, in [evidence](evidence/family-name/README.md).
 
 1. **The field's names are intelligence augmentation and hybrid intelligence.** Engelbart 1962 and Licklider 1960 are the roots; Akata 2020 is the living community.
 2. **Teaming fits only in part.** In teaming the model is a teammate; here the model decides nothing. The prefix "AI-augmented" matches the field and is kept, not renamed.
