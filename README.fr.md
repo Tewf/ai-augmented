@@ -10,8 +10,9 @@ recouvrement entre deux, et rien qu'un membre possède.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-02) :** mis en place ; les membres tiennent leur périmètre et rien de plus. Une première passe de la
-> revue de littérature est écrite et nomme sa référence ; le préfixe est conservé. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
+> **État (2026-11-03) :** mis en place ; les membres tiennent leur périmètre et rien de plus. Une première passe de la
+> revue de littérature est écrite et nomme sa référence ; le préfixe est conservé. Les règles de la revue sont trois
+> principes, une forme et deux vérifications. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
@@ -121,6 +122,7 @@ La revue est écrite en cinq étapes et nomme sa référence. Une passe complèt
 - elle lit la table de périmètre de chaque membre ;
 - elle avertit quand deux membres partagent une expression de trois mots dans leurs lignes « dedans » ;
 - elle n'échoue jamais, et ses tests disent ce qu'elle ne peut pas trancher ;
+- les deux nouvelles vérifications, [three_arms.py](checks/local/three_arms.py) et [scope_table.py](checks/local/scope_table.py), tiennent le principe mesuré et la forme, et sont testées à côté ;
 - sur les six membres d'aujourd'hui elle ne trouve aucune expression commune : les tables se lisent, mais le sens peut se recouvrir.
 
 ## Vérifier
@@ -139,6 +141,9 @@ construit aussi le site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai
 
 | Partie | Résumé |
 |---|---|
+| [standard.md](standard.md) | la fiche : les trois principes de cette famille et leurs niveaux de preuve |
+| [principles](principles/) | un fichier par principe : comparer à chaque partie seule, un propriétaire par affirmation, une table de périmètre dit pourquoi |
+| [shapes](shapes/) | la table de périmètre que porte la page d'accueil de chaque membre, avec un exemple rempli |
 | [evidence](evidence/) | la revue derrière cette page, et sa bibliographie |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |
 

@@ -10,8 +10,9 @@ member owns.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-02):** set up; the members hold their scope and nothing more. A first pass of the
-> literature review is written and names its baseline; the prefix is kept. It is not an
+> **Status (2026-11-03):** set up; the members hold their scope and nothing more. A first pass of the
+> literature review is written and names its baseline; the prefix is kept. The review's rules are three principles, a
+> shape and two checks. It is not an
 > official standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
@@ -121,7 +122,8 @@ The review is written in five steps and names its baseline. A full pass, with fo
 
 Beside it, the family's own check, [scope_overlap.py](checks/local/scope_overlap.py): a program that reads every member's scope table
 and warns when two members share a phrase of three words in their "in" rows. It warns and never fails, and its tests
-say what it cannot decide. On the six members today it finds no shared phrase, which shows that the tables can be read, not that they do not overlap in meaning.
+say what it cannot decide. The two new checks, [three_arms.py](checks/local/three_arms.py) and [scope_table.py](checks/local/scope_table.py), hold
+the measured principle and the shape, and are tested beside it. On the six members today it finds no shared phrase, which shows that the tables can be read, not that they do not overlap in meaning.
 
 ## Check it
 
@@ -139,6 +141,9 @@ also renders the site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai-a
 
 | Part | Summary |
 |---|---|
+| [standard.md](standard.md) | the card: the three principles of this family and their grades |
+| [principles](principles/) | one file per principle: compare with each part alone, one owner per claim, a scope table says why |
+| [shapes](shapes/) | the scope table every member's front page carries, with one filled example |
 | [evidence](evidence/) | the review behind this page, and its bibliography |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 

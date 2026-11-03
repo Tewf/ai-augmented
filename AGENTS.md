@@ -9,7 +9,10 @@ read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814
    what is out, and which neighbour holds what is out.
 2. The first job is the review on the front page, in its five steps, staged outside this repository until it names its
    baseline; it is finished when it can. The repository may be renamed at the frame step.
-3. A fact that belongs to a neighbour is linked, never copied. A choice that shapes the repository gets a record in
+3. The rules this family adds are in [standard.md](standard.md), one file each in [principles/](principles/), and the
+   shape of a member's scope is [shapes/scope-table.md](shapes/scope-table.md). A document follows a shape when its
+   `**Shape:**` line links it.
+4. A fact that belongs to a neighbour is linked, never copied. A choice that shapes the repository gets a record in
    [decisions/](decisions/).
 
 ## Rules for claims
@@ -46,7 +49,8 @@ python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag
 - Fix every error. Read every warning.
 - Answer the questions in `checks/out/needs-judgment.md` in `checks/judgments.toml`, each answer quoting in backticks
   a word or heading of its own file.
-- Test the scope-overlap check (it needs no clones): `READER_ERGONOMICS_CHECKS=checks/out/standard/checks python3 -m unittest discover -s checks`.
+- Rebuild the card and `llms.txt` after changing a principle: `python3 checks/out/standard/checks/program/standard_card.py . --write`. Edit the principle files, never the table.
+- Test the local checks (they need no clones): `READER_ERGONOMICS_CHECKS=checks/out/standard/checks python3 -m unittest discover -s checks`.
 - Keep [llms.txt](llms.txt), [README.md](README.md) and [README.fr.md](README.fr.md) in step.
 - A pin raise goes in [CHANGELOG.md](CHANGELOG.md), not in decisions/.
 

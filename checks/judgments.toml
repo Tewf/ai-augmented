@@ -88,3 +88,38 @@ path = "evidence/family-name/review.md"
 question = "the name 'review' and the opening are far apart in meaning (0.11): does the name predict the content?"
 file = "30b0ec18d14b"
 answer = "Yes: `Review` is the second of the method's five steps, `Step 2`, and the file reads the surveys, the seminal works and the practice."
+
+[[answer]]
+check = "tree-shape"
+path = "shapes/examples"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `shapes/examples` is the folder every shape's worked example lives in, and it grows one file per shape; the shape-example check exempts it from being read as a shape."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "f8fa7ca41509"
+answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
+
+[[answer]]
+check = "name-content"
+path = "evidence/family-name/against.md"
+question = "the name 'against' and the opening are far apart in meaning (0.14): does the name predict the content?"
+file = "8b647f4f8bd3"
+answer = "Yes: `Against` is the folder-level name for the evidence against, and the opening says it is where the combination fails."
+
+[[answer]]
+check = "section-cohesion"
+path = "AGENTS.md"
+question = "section 'House conventions' is far from every other section (0.24): a second role?"
+file = "1c5331330580"
+answer = "No: `House conventions` lists the typography and commit rules for a change, which is the same role as the rest of the file, how to change this repository."
+
+[[answer]]
+check = "section-cohesion"
+path = "evidence/family-name/against.md"
+question = "section 'The jagged frontier' is far from every other section (0.19): a second role?"
+file = "8b647f4f8bd3"
+answer = "No: `The jagged frontier` is one more piece of evidence that the combination fails, like the meta-analysis above it; the role is the file's, evidence against."
