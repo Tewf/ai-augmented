@@ -11,7 +11,7 @@ The evidence that a person plus a model is not always better.
 
 ## The jagged frontier
 
-- Dell'Acqua 2023: outside the model's reach, workers using it were 19% less likely to produce correct solutions (secondary).
+- Dell'Acqua 2023: outside the model's reach, workers using it were 19 percentage points less likely to produce correct solutions (secondary; the paper's abstract gives the figure in points, not percent).
 
 ## The paradox
 
