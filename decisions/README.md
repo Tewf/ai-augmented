@@ -8,6 +8,7 @@ decision in one sentence under its title, then its status, context, decision and
 | Record | Summary |
 |---|---|
 | [0001 A repository of its own](0001-a-repository-of-its-own.md) | The map and the rules of the AI-augmented family is one problem, so it is one repository, set up before any work on it |
+| [0002 Which findings became principles](0002-which-findings-became-principles.md) | One finding became a measured principle, two rules became conventions, and the rest stay findings |
 
 ## See also
 
