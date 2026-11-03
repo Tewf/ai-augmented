@@ -28,7 +28,7 @@ Below 10 of 20, a grey source is an example of practice only.
 | Mosqueira-Rey 2022 | formal | string 5 | convention (state of the art) | review |
 | Wu 2022b | formal | string 5 | convention (survey) | review |
 | Shneiderman 2020 | formal | string 6 | convention | review |
-| Amershi 2019 | formal | string 6 | supported with caveat (49 practitioners, 20 products) | review |
+| Amershi 2019 | formal | string 6 | supported with caveat (49 design practitioners, 20 AI-infused products) | review |
 | Raisch 2021 | formal | string 7 | convention (argument) | against |
 | Vaccaro 2024 | formal | string 6 | measured | against, state of the art |
 | Noy 2023 | formal | string 6 | measured | state of the art |

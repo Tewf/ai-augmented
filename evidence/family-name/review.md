@@ -22,7 +22,7 @@ Step 2, read on 2026-11-02. Questions Q1 to Q4 are in [frame](frame.md); grades 
 
 - Seeber 2020 asks what changes when machines are teammates, and gives three design areas: machine artifact, collaboration, institution.
 - Shneiderman 2020 argues for high human control together with high automation.
-- Amershi 2019 gives 18 design guidelines for human-AI interaction, tested with 49 practitioners on 20 products.
+- Amershi 2019 gives 18 design guidelines for human-AI interaction, tested with 49 design practitioners on 20 popular AI-infused products.
 - Raisch 2021 argues that augmentation cannot be neatly separated from automation.
 - Hassani 2020 contrasts replacing the human mind with augmenting it, and chooses augmentation.
 - Case 2018 popularises the centaur: people working with machines in a non-zero-sum game.
