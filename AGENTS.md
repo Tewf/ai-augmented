@@ -14,6 +14,7 @@ read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814
    `**Shape:**` line links it.
 4. A fact that belongs to a neighbour is linked, never copied. A choice that shapes the repository gets a record in
    [decisions/](decisions/).
+5. The reader of a brief is an agent: its style is [reader-styles/agent.md](reader-styles/agent.md); write briefs and start files to it.
 
 ## Rules for claims
 

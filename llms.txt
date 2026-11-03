@@ -18,6 +18,11 @@ Each page's markdown source is served at the same path with a .md extension.
 - [One owner per claim](https://tewf.github.io/ai-augmented/principles/scope/one-owner-per-claim.md): a thing is in the scope of one member of the family, and every other member links it.
 - [A scope table says why](https://tewf.github.io/ai-augmented/principles/scope/scope-table-with-why.md): a member's scope is a table of in, later and out rows, and every row says why.
 
+## Reader styles
+
+- [Reader styles](https://tewf.github.io/ai-augmented/reader-styles/README.md): how a known reader changes the optimum
+- [Reader style: agent](https://tewf.github.io/ai-augmented/reader-styles/agent.md)
+
 ## Optional
 
 - [Evidence](https://tewf.github.io/ai-augmented/evidence/README.md): one literature review per topic, with the evidence against

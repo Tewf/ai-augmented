@@ -15,6 +15,7 @@ Every work this repository cites, once: Key, citation, and a stable link.
 | Engelbart 1962 | Engelbart (1962). Augmenting human intellect: a conceptual framework. SRI Summary Report AFOSR-3223. Read in part: the definition and H-LAM/T | https://www.dougengelbart.org/pubs/augment-3906.html |
 | Garousi 2019 | Garousi, Felderer, Mäntylä (2019). Guidelines for including grey literature and conducting multivocal literature reviews in software engineering. Information and Software Technology 106, 101-121 | https://doi.org/10.1016/j.infsof.2018.09.006 |
 | Hassani 2020 | Hassani, Silva, Unger, TajMazinani, Mac Feely (2020). Artificial intelligence (AI) or intelligence augmentation (IA): what is the future? AI 1(2). Abstract read | https://doi.org/10.3390/ai1020008 |
+| Kim 2025 | Kim, Gu, Park et al. (2025). Towards a science of scaling agent systems. Preprint. Read in full | arXiv:2512.08296 |
 | Licklider 1960 | Licklider (1960). Man-computer symbiosis. IRE Transactions on Human Factors in Electronics. Abstract read | https://doi.org/10.1109/THFE2.1960.4503259 |
 | Mosqueira-Rey 2022 | Mosqueira-Rey, Hernández-Pereira, Alonso-Ríos, Bobes-Bascarán and others (2022). Human-in-the-loop machine learning: a state of the art. Artificial Intelligence Review. Abstract read | https://doi.org/10.1007/s10462-022-10246-w |
 | Noy 2023 | Noy, Zhang (2023). Experimental evidence on the productivity effects of generative artificial intelligence. Science. Abstract read | https://doi.org/10.1126/science.adh2586 |
@@ -26,4 +27,5 @@ Every work this repository cites, once: Key, citation, and a stable link.
 | Shneiderman 2020 | Shneiderman (2020). Human-centered artificial intelligence: reliable, safe and trustworthy. International Journal of Human-Computer Interaction. Abstract read | https://doi.org/10.1080/10447318.2020.1741118 |
 | Vaccaro 2024 | Vaccaro, Almaatouq, Malone (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour 8, 2293-2303. Abstract read | https://doi.org/10.1038/s41562-024-02024-1 |
 | Wu 2022b | Wu, Xiao, Sun, Zhang and others (2022). A survey of human-in-the-loop for machine learning. Future Generation Computer Systems. Abstract read | https://doi.org/10.1016/j.future.2022.05.014 |
+| Xu 2026 | Xu, Wu (2026). Stale instruction files override the code in coding agents: a one-sentence fix. Preprint. Abstract read | https://arxiv.org/abs/2610.30571 |
 | Zou 2025 | Zou and others (2025). LLM-based human-agent collaboration and interaction systems: a survey. Preprint. Abstract read | https://arxiv.org/abs/2505.00753 |

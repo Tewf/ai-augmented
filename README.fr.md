@@ -143,6 +143,7 @@ construit aussi le site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai
 |---|---|
 | [standard.md](standard.md) | la fiche : les trois principes de cette famille et leurs niveaux de preuve |
 | [principles](principles/) | un fichier par principe : comparer à chaque partie seule, un propriétaire par affirmation, une table de périmètre dit pourquoi |
+| [reader-styles](reader-styles/agent.md) | le style de lecteur d'un agent à qui l'on remet un brief : cinq dérogations, chacune avec son niveau de preuve |
 | [shapes](shapes/) | la table de périmètre que porte la page d'accueil de chaque membre, avec un exemple rempli |
 | [evidence](evidence/) | la revue derrière cette page, et sa bibliographie |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |

@@ -123,3 +123,24 @@ path = "evidence/family-name/against.md"
 question = "section 'The jagged frontier' is far from every other section (0.19): a second role?"
 file = "8b647f4f8bd3"
 answer = "No: `The jagged frontier` is one more piece of evidence that the combination fails, like the meta-analysis above it; the role is the file's, evidence against."
+
+[[answer]]
+check = "tree-shape"
+path = "reader-styles"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `reader-styles` is the folder the standard names for reader styles, and its index lists the styles by reader; it holds the README and one style today and grows one file per reader."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "3ec9455d47d2"
+answer = "Reference: la page d'accueil de la famille, lue pour `La carte`, `Les règles` et `Les mots`; `Vérifier` tient en deux commandes."
+
+[[answer]]
+check = "section-cohesion"
+path = "AGENTS.md"
+question = "section 'House conventions' is far from every other section (0.24): a second role?"
+file = "8597585605b8"
+answer = "No: `House conventions` lists the typography and commit rules for a change, which is the same role as the rest of the file, how to change this repository."

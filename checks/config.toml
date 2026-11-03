@@ -46,3 +46,8 @@ exempt = ["evidence/bibliography.md"]
 
 [shape_example]
 exempt = ["shapes/README.md", "shapes/examples/*"]   # the folder README, and the examples, which follow a shape and are not one
+
+# The agent reader style (reader-styles/agent.md): the bounds on the start file and the memory index.
+[agent_reader]
+start_file_max_lines = 200   # PROVISIONAL: from the method's design (ai-augmented-project decision 0004); no study sets it
+index_max_lines = 200        # PROVISIONAL: same

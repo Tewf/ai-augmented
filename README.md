@@ -143,6 +143,7 @@ also renders the site, [tewf.github.io/ai-augmented](https://tewf.github.io/ai-a
 |---|---|
 | [standard.md](standard.md) | the card: the three principles of this family and their grades |
 | [principles](principles/) | one file per principle: compare with each part alone, one owner per claim, a scope table says why |
+| [reader-styles](reader-styles/agent.md) | the reader style of an agent that is handed a brief: five overrides, each with its grade |
 | [shapes](shapes/) | the scope table every member's front page carries, with one filled example |
 | [evidence](evidence/) | the review behind this page, and its bibliography |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
