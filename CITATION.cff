@@ -6,8 +6,10 @@ message: >-
   and not a new result.
 title: "ai-augmented (work in progress)"
 abstract: >-
-  The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap. Scope only.
+  The front page of a family of repositories on AI-augmented work: a person, a language model and a machine on one project. The map, the shared words, and the rule of one repository per problem with no overlap. The review that names its baseline, three principles, a shape and the checks that hold them.
 type: software
+version: 0.1.0
+date-released: 2026-11-03
 authors:
   - name: "Tewf"
 repository-code: "https://github.com/Tewf/ai-augmented"

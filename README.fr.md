@@ -10,12 +10,38 @@ recouvrement entre deux, et rien qu'un membre possède.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-03) :** mis en place ; les membres tiennent leur périmètre et rien de plus. Une première passe de la
-> revue de littérature est écrite et nomme sa référence ; le préfixe est conservé. Les règles de la revue sont trois
-> principes, une forme et deux vérifications. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
+> **État (2026-11-03) :** version 0.1.0. Fait : la carte, les mots, une première passe de revue de 23 sources qui nomme
+> sa référence (le préfixe est conservé), trois principes, une forme, le style de lecteur d'un agent et trois
+> vérifications avec 44 tests unitaires. Ouvert : une passe complète de la revue avec citations suivantes et recherche
+> grise, et le travail propre des membres. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
+
+## La prendre
+
+La carte et la forme de la famille sont faites pour être copiées et gardées. Copiez-les depuis une version étiquetée
+([étiquettes](https://github.com/Tewf/ai-augmented/tags)), pour qu'un changement ultérieur ici ne change jamais votre
+copie.
+
+1. Copiez [standard.md](standard.md), la carte, les [principles/](principles/) que vous gardez et
+   [shapes/scope-table.md](shapes/scope-table.md), la forme du périmètre d'un membre, aux mêmes chemins de votre dépôt.
+   Copiez [checks/local/](checks/local/) et [checks/test_local_checks.py](checks/test_local_checks.py) pour les
+   vérifications qui les tiennent.
+2. Donnez à chaque membre une page d'accueil avec un tableau de périmètre aux lignes dedans, plus tard et dehors, chacune
+   disant pourquoi.
+3. Ajoutez `checks/config.toml` avec `extends = "reader-ergonomics"`, comme [celui-ci](checks/config.toml).
+4. Épinglez la norme par son commit, comme [checks.yml](.github/workflows/checks.yml), et lancez ses vérifications :
+
+   ```sh
+   git clone https://github.com/Tewf/reader-ergonomics
+   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   python3 reader-ergonomics/checks/run.py chemin/vers/votre/depot
+   ```
+
+5. Comment prendre votre propre version, et où va un désaccord : la section
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version)
+   de la norme.
 
 ## La carte
 

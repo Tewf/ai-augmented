@@ -7,8 +7,8 @@ read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814
 
 1. Read the standard at the release this repository checks against (v1.19.2), and the front page's scope: what is in,
    what is out, and which neighbour holds what is out.
-2. The first job is the review on the front page, in its five steps, staged outside this repository until it names its
-   baseline; it is finished when it can. The repository may be renamed at the frame step.
+2. The first pass of the review is written and names its baseline (H1). A full pass, with forward citations and a grey
+   search, is open; stage it outside this repository until it adds to the baseline.
 3. The rules this family adds are in [standard.md](standard.md), one file each in [principles/](principles/), and the
    shape of a member's scope is [shapes/scope-table.md](shapes/scope-table.md). A document follows a shape when its
    `**Shape:**` line links it.

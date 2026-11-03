@@ -3,6 +3,18 @@
 The releases this repository pins, newest first, in the form of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 A pin move is recorded here, not in decisions/.
 
+## [0.1.0] - 2026-11-03
+
+### Added
+
+- The first release: the map of the two families, the shared words, and the rule of one repository per problem.
+- A first-pass review of the family's name in `evidence/family-name/`, 23 sources, naming its baseline H1.
+- The card `standard.md` and three principles: compare with each part alone, one owner per claim, a scope table says why.
+- The scope-table shape with a filled example, and the reader style of an agent handed a brief.
+- Three checks in `checks/local/` (scope overlap, three arms, scope table) with 44 unit tests.
+- Two decision records, and a take-it block on both front pages.
+- Pinned reader-ergonomics v1.19.2 (`b9732b9`), as below.
+
 ## 2026-11-02
 
 ### Added

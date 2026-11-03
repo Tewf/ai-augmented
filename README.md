@@ -10,13 +10,34 @@ member owns.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-03):** set up; the members hold their scope and nothing more. A first pass of the
-> literature review is written and names its baseline; the prefix is kept. The review's rules are three principles, a
-> shape and two checks. It is not an
+> **Status (2026-11-03):** version 0.1.0. Built: the map, the words, a first-pass review of 23 sources that names its
+> baseline (the prefix is kept), three principles, a shape, the reader style of an agent, and three checks with 44 unit
+> tests. Open: a full review pass with forward citations and a grey search, and the members' own work. It is not an
 > official standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
 > reader-ergonomics was made. Corrections are welcome as issues.
+
+## Take it
+
+The family's card and shape are meant to be copied and kept as your own. Copy them from a tagged release
+([tags](https://github.com/Tewf/ai-augmented/tags)), so a later change here never changes your copy.
+
+1. Copy [standard.md](standard.md), the card, the [principles/](principles/) you keep, and [shapes/scope-table.md](shapes/scope-table.md),
+   the shape of a member's scope, into the same paths of your repository. Copy [checks/local/](checks/local/) and
+   [checks/test_local_checks.py](checks/test_local_checks.py) for the checks that hold them.
+2. Give each member a front page with a scope table of in, later and out rows, each row saying why.
+3. Add `checks/config.toml` with `extends = "reader-ergonomics"`, as [this one](checks/config.toml) does.
+4. Pin the standard by commit, as [checks.yml](.github/workflows/checks.yml) does, and run its checks:
+
+   ```sh
+   git clone https://github.com/Tewf/reader-ergonomics
+   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   python3 reader-ergonomics/checks/run.py path/to/your/repository
+   ```
+
+5. How to take your own version, and where a disagreement goes: the standard's
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version).
 
 ## The map
 
