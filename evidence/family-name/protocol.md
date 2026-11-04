@@ -88,12 +88,16 @@ Vaccaro 2024 (7) and Parasuraman 2000 (6). The count in review.md alone ties at 
 
 ## Second rater on the grey sources, 2026-11-03: not completed
 
-Garousi's criteria were pasted into one prompt per source, and each source went through ask-mistral, one call per source.
+Garousi's criteria were pasted into one prompt per source, and each source went to a model of another family, one call per source.
 Six sources were sent: Engelbart 1962, Dell'Acqua 2023, Peng 2023, Case 2018, Anthropic 2024 and Agentic AI Foundation 2026.
+
 Every call returned no output and timed out. The endpoint did not answer a one-word test either.
 So no independent score exists, and agreement (mean absolute difference, kappa on the threshold) is not reported.
-No score in sources.md was changed. The text sent was the source's full text where it was reachable (Engelbart first 40000 of about 295000 characters, Peng complete, Anthropic and the convention site complete).
+No score in sources.md was changed.
+
+The text sent was the source's full text where it was reachable (Engelbart first 40000 of about 295000 characters, Peng complete, Anthropic and the convention site complete).
 Dell'Acqua 2023 and Case 2018 are not reachable as text (HTTP 403 to a plain client, and no User-Agent change allowed); the rater would have had only the abstract.
+
 The rerun is the next step once the endpoint answers.
 
 ## Not searched
