@@ -36,6 +36,7 @@ digraph map {
   PRC -> DG [label=" links"];
   T -> RV [dir=back, label=" builds on"];
   DG -> RV [style=dashed, label=" reviews in its shapes", constraint=false];
+  RV -> P [style=invis];
   {rank=same; T; BP}
   {rank=same; P; AP}
 }
