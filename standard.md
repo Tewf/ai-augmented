@@ -2,9 +2,9 @@
 
 What a family of repositories on AI-augmented work shares, as far as the evidence goes.
 A claim about a person and a model is set against each alone, and every member states its scope in a table, once. It extends
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md): read that one first. This page adds only what a person, a model and a machine on one project change.
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md): read that one first. This page adds only what a person, a model and a machine on one project change.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md#grades): measured, supported with caveat,
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.
 
 ## How to use it

@@ -18,15 +18,15 @@ later, and what is out with the member that holds it, and each row says why.
 | Header, empty then What then Why | the form the overlap check reads | [scope-overlap](https://github.com/Tewf/ai-augmented/blob/master/checks/local/scope_overlap.py) | convention |
 | In rows | what the member claims | [one owner per claim](../principles/scope/one-owner-per-claim.md) | convention, untested |
 | Later rows | what is wanted and not yet held | the family's rule that a member answers one question | convention |
-| Out rows | what another member holds, linked | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/principles/collection/one-place-per-fact.md) | supported with caveat, from the standard |
+| Out rows | what another member holds, linked | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/collection/one-place-per-fact.md) | supported with caveat, from the standard |
 | Why column | the reason for the row | [a scope table says why](../principles/scope/scope-table-with-why.md) | convention, untested |
 
 ## The principles it applies
 
 | Part | Principle |
 |---|---|
-| One table, three kinds of row | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/principles/page/signal-the-structure.md) |
-| An out row links the member | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/principles/collection/one-place-per-fact.md) |
+| One table, three kinds of row | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/page/signal-the-structure.md) |
+| An out row links the member | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/collection/one-place-per-fact.md) |
 | Each member claims once | [one owner per claim](../principles/scope/one-owner-per-claim.md) |
 
 ## The skeleton
