@@ -230,20 +230,6 @@ file = "fa4106ba91b8"
 answer = "Reference: the file follows its shape and is consulted part by part; its heading `Sources: the pool and its quality` names the one thing it holds."
 
 [[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "d2e7b4bab75d"
-answer = "It stays: its one role is the front page that opens the family, read as `La carte` first. The length comes from the member table, which the reader needs in place."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "ddcb548bbf1e"
-answer = "It stays: its one role is the front page that opens the family, read as `The map` first. The length comes from the member table, which the reader needs in place."
-
-[[answer]]
 check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with principles/scope/one-owner-per-claim.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -406,76 +392,6 @@ answer = "They stay apart: `CHANGELOG.md` serves another role than the file it c
 
 [[answer]]
 check = "co-change"
-path = "README.fr.md"
-question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/README.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with principles/scope/one-owner-per-claim.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with reader-styles/agent.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/README.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with principles/scope/one-owner-per-claim.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with reader-styles/agent.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
-
-[[answer]]
-check = "co-change"
 path = "checks/config.toml"
 question = "changed together with reader-styles/agent.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "d60e1da36fa4"
@@ -585,20 +501,6 @@ path = "CHANGELOG.md"
 question = "changed together with decisions/0001-a-repository-of-its-own.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "26ffe1d508af"
 answer = "They stay apart: `CHANGELOG.md` and `decisions/0001-a-repository-of-its-own.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/0001-a-repository-of-its-own.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `decisions/0001-a-repository-of-its-own.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0001-a-repository-of-its-own.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `decisions/0001-a-repository-of-its-own.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
 
 [[answer]]
 check = "co-change"
@@ -795,90 +697,6 @@ path = "CHANGELOG.md"
 question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "26ffe1d508af"
 answer = "They stay apart: `CHANGELOG.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with checks/config.toml in 6 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `checks/config.toml` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/0002-which-findings-became-principles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `decisions/0002-which-findings-became-principles.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with principles/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `principles/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with principles/scope/scope-table-with-why.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `principles/scope/scope-table-with-why.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `shapes/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d2e7b4bab75d"
-answer = "They stay apart: `README.fr.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with checks/config.toml in 6 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `checks/config.toml` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0002-which-findings-became-principles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `decisions/0002-which-findings-became-principles.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with principles/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `principles/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with principles/scope/scope-table-with-why.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `principles/scope/scope-table-with-why.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `shapes/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ddcb548bbf1e"
-answer = "They stay apart: `README.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
 
 [[answer]]
 check = "co-change"
@@ -1131,3 +949,171 @@ path = "reader-styles/agent.md"
 question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "ffdade681313"
 answer = "They stay apart: `reader-styles/agent.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "91 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "b82d4d995ba9"
+answer = "It stays: its one role is the front page that opens the family, read as `La carte` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "88 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "8c6d41e1b6ee"
+answer = "It stays: its one role is the front page that opens the family, read as `The map` first. The length comes from the member table, which the reader needs in place."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with checks/config.toml in 6 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `checks/config.toml` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `decisions/0001-a-repository-of-its-own.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/0002-which-findings-became-principles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `decisions/0002-which-findings-became-principles.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with principles/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `principles/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with principles/scope/scope-table-with-why.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `principles/scope/scope-table-with-why.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with reader-styles/agent.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `shapes/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b82d4d995ba9"
+answer = "They stay apart: `README.fr.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with checks/config.toml in 6 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `checks/config.toml` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0001-a-repository-of-its-own.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `decisions/0001-a-repository-of-its-own.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0002-which-findings-became-principles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `decisions/0002-which-findings-became-principles.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0003-the-overlap-check-gains-a-semantic-pass.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 5 commits (83% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with principles/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `principles/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with principles/scope/one-owner-per-claim.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with principles/scope/scope-table-with-why.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `principles/scope/scope-table-with-why.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with reader-styles/agent.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` serves another role than the file it changes with, and they change together by construction, not by overlap."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `shapes/README.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with shapes/scope-table.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c6d41e1b6ee"
+answer = "They stay apart: `README.md` and `shapes/scope-table.md` share no fact. Both hold a link to the standard at its pinned commit, so every pin move rewrites both in one commit; the standard-pin and standard-links checks keep those copies equal, so the coupling is the pin's, not the files'."

@@ -21,6 +21,8 @@ digraph map {
     C [label=<<b>ai-augmented-cases</b><br/><font point-size="11" color="#55575F">real projects, measured</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     PRC [label=<<b>ai-augmented-practice</b><br/><font point-size="11" color="#55575F">each practice as an algorithm</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     DG [label=<<b>ai-augmented-data-gathering</b><br/><font point-size="11" color="#55575F">efficient data gathering</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    LO [label=<<b>ai-augmented-law-oracle</b><br/><font point-size="11" color="#55575F">a statute encoded by a model,</font><br/><font point-size="11" color="#55575F">accepted at zero disagreement</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    LA [label=<<b>ai-augmented-legal-agent</b><br/><font point-size="11" color="#55575F">one role: a skill with</font><br/><font point-size="11" color="#55575F">programs and a fixed point</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   }
   HUB -> T [style=invis];
   HUB -> BP [style=invis];
@@ -34,6 +36,8 @@ digraph map {
   C -> F [dir=back, label=" reads"];
   AP -> PRC [dir=back, label=" reads"];
   PRC -> DG [label=" links"];
+  AG -> LA [dir=back, label=" applies"];
+  LO -> LA [dir=back, label=" quotes"];
   T -> RV [dir=back, label=" builds on"];
   DG -> RV [style=dashed, label=" reviews in its shapes", constraint=false];
   RV -> P [style=invis];

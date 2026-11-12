@@ -41,7 +41,7 @@ The family's card and shape are meant to be copied and kept as your own. Copy th
 
 ## The map
 
-![Two families side by side: in the reader-ergonomics family, the topic and the project; in the AI-augmented family, the blueprint as the bridge, the project, the IDE that implements it, the agents and the cases that use and measure it, the practice map and the data gathering it links, and the foundations that read the cases. The review genre sits in the first family. The hub sits above both and nothing points to it.](map.svg)
+![Two families side by side: in the reader-ergonomics family, the topic and the project; in the AI-augmented family, the blueprint as the bridge, the project, the IDE that implements it, the agents and the cases that use and measure it, the practice map and the data gathering it links, the foundations that read the cases, and the legal agent, which applies the agents and quotes the law oracle. The review genre sits in the first family. The hub sits above both and nothing points to it.](map.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -70,6 +70,8 @@ digraph map {
     C [label=<<b>ai-augmented-cases</b><br/><font point-size="11" color="#55575F">real projects, measured</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     PRC [label=<<b>ai-augmented-practice</b><br/><font point-size="11" color="#55575F">each practice as an algorithm</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
     DG [label=<<b>ai-augmented-data-gathering</b><br/><font point-size="11" color="#55575F">efficient data gathering</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    LO [label=<<b>ai-augmented-law-oracle</b><br/><font point-size="11" color="#55575F">a statute encoded by a model,</font><br/><font point-size="11" color="#55575F">accepted at zero disagreement</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    LA [label=<<b>ai-augmented-legal-agent</b><br/><font point-size="11" color="#55575F">one role: a skill with</font><br/><font point-size="11" color="#55575F">programs and a fixed point</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   }
   HUB -> T [style=invis];
   HUB -> BP [style=invis];
@@ -83,6 +85,8 @@ digraph map {
   C -> F [dir=back, label=" reads"];
   AP -> PRC [dir=back, label=" reads"];
   PRC -> DG [label=" links"];
+  AG -> LA [dir=back, label=" applies"];
+  LO -> LA [dir=back, label=" quotes"];
   T -> RV [dir=back, label=" builds on"];
   DG -> RV [style=dashed, label=" reviews in its shapes", constraint=false];
   RV -> P [style=invis];
@@ -103,6 +107,8 @@ digraph map {
 | [ai-augmented-cases](https://github.com/Tewf/ai-augmented-cases) | what each real project run with the method cost and produced | review done (37 sources); two cases written, with their measures program |
 | [ai-augmented-practice](https://github.com/Tewf/ai-augmented-practice) | each practice of the method as an algorithm for a named problem, with the best-known algorithm, the gap and the change proposed | scope set out 2026-11-03; first review not started |
 | [ai-augmented-data-gathering](https://github.com/Tewf/ai-augmented-data-gathering) | the most efficient way to gather data in general, information foraging first | scope set out 2026-11-03; first review not started |
+| [ai-augmented-law-oracle](https://github.com/Tewf/ai-augmented-law-oracle) | a model translates a statute into code and a verdict back into words; law-oracle accepts the translation or not | one decision taken; baseline B2 run on its smoke split with a local 7B model; nothing built of its own |
+| [ai-augmented-legal-agent](https://github.com/Tewf/ai-augmented-legal-agent) | one company role, the legal one, as a skill extended by programs, a judge other than itself and a fixed point | card and register check written, seven review passes; not yet at its fixed point, paused for a runner that separates write permissions |
 
 The first family has its own front page, [reader-ergonomics-family](https://github.com/Tewf/reader-ergonomics-family); its
 counterpart of the project is [reader-ergonomics-project](https://github.com/Tewf/reader-ergonomics-project), and its member for the literature review as a genre is [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review).
